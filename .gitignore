@@ -1,0 +1,7 @@
+# Internal — do NOT publish
+VALUE_PROPS.md
+vouch-vision.html
+
+# OS / tooling cruft
+.DS_Store
+.playwright-mcp/
