@@ -2,6 +2,7 @@
 VALUE_PROPS.md
 vouch-vision.html
 vouch-playbook.html
+*.pdf
 
 # OS / tooling cruft
 .DS_Store
