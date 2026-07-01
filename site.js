@@ -40,4 +40,18 @@ var CONTACT_EMAIL = 'support@vouch.com';
     window.addEventListener('scroll', onScroll, { passive: true });
     onScroll();
   }
+
+  // Demo consent toggles (visual only): click / space / enter flips the switch.
+  document.querySelectorAll('.switch').forEach(function (sw) {
+    sw.style.cursor = 'pointer';
+    sw.setAttribute('role', 'switch');
+    sw.setAttribute('tabindex', '0');
+    var sync = function () { sw.setAttribute('aria-checked', sw.classList.contains('off') ? 'false' : 'true'); };
+    var toggle = function () { sw.classList.toggle('off'); sync(); };
+    sync();
+    sw.addEventListener('click', toggle);
+    sw.addEventListener('keydown', function (e) {
+      if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); toggle(); }
+    });
+  });
 })();
