@@ -369,5 +369,5 @@ body.page-creators{background-color:#F3ECDA}
 .darkfacts{display:grid; grid-template-columns:repeat(3,1fr); gap:26px; margin-top:28px}
 .darkfacts .df b{font-family:"Fraunces",serif; font-weight:500; color:#7ed3ad; font-size:1.1rem; display:block; margin-bottom:8px}
 .darkfacts .df p{color:#cfc8b8; font-size:14px; margin:0; line-height:1.5; max-width:42ch}
-.darkband .db-lead{color:#cfc8b8; font-size:15px; line-height:1.6; margin:16px 0 0; max-width:54ch}
+.darkband .db-lead{color:#cfc8b8; font-size:15px; line-height:1.6; margin:16px 0 0}
 @media (max-width:900px){.darkfacts{grid-template-columns:1fr; gap:18px}}
