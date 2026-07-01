@@ -24,6 +24,7 @@ body{
 .kicker{font-family:"IBM Plex Mono",monospace; font-size:12px; letter-spacing:.17em; text-transform:uppercase; color:var(--muted-2)}
 h2.serif{font-size:clamp(2rem,4.4vw,3.1rem); line-height:1.03; margin:.18em 0 .12em}
 p.lead{font-size:clamp(1.05rem,1.55vw,1.22rem); color:var(--muted); max-width:60ch}
+.lead.wide{max-width:none}
 a{color:var(--green-deep); text-decoration:none}
 .hr{height:1px; background:var(--line); border:0; margin:0}
 .eyebrow-row{display:flex; align-items:center; gap:14px; margin-bottom:6px}
